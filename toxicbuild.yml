@@ -8,7 +8,7 @@ system_packages:
   - make
 
 steps:
-  - name: setup db
+  - name: setup test env
     command: ./scripts/env.sh
 
   - name: Linter checks
