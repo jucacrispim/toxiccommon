@@ -21,7 +21,7 @@ import pytz
 from toxiccore.utils import datetime2string
 
 
-_dt_regex = re.compile('\d\s\d+\s\d+\s\d+:\d+:\d+\s\d+\s[\+|-]\d+$')
+_dt_regex = re.compile(r'\d\s\d+\s\d+\s\d+:\d+:\d+\s\d+\s[\+|-]\d+$')
 
 
 def is_datetime(dtstr):

@@ -20,9 +20,9 @@
 from unittest import TestCase
 from unittest.mock import MagicMock, patch, AsyncMock
 from toxiccommon.client import (HoleClient, get_hole_client,
-                                      ToxicClientException, UserDoesNotExist,
-                                      NotEnoughPerms, BadResetPasswordToken,
-                                      AlreadyExists)
+                                ToxicClientException, UserDoesNotExist,
+                                NotEnoughPerms, BadResetPasswordToken,
+                                AlreadyExists)
 from tests import async_test
 
 

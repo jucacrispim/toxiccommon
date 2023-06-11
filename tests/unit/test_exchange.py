@@ -20,7 +20,7 @@
 import asyncio
 import os
 from unittest import TestCase
-from unittest.mock import patch, Mock, AsyncMock
+from unittest.mock import Mock, AsyncMock
 from aioamqp.exceptions import ChannelClosed
 from asyncamqp.exceptions import ConsumerTimeout
 from toxiccommon import exchange, coordination
