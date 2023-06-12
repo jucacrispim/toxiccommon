@@ -10,3 +10,5 @@ pyflakes==3.0.1
 pylint==2.17.4
 xenon==0.9.0
 flake8==6.0.0
+sphinx==7.0.1
+sphinx_pdj_theme==0.4.0
