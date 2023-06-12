@@ -1,4 +1,4 @@
 #!/bin/sh
 
-docker run -d -p zookeeper:latest
-docker run -d -p rabbitmq:latest
+docker run -d --network=host zookeeper:latest
+docker run -d --network=host rabbitmq:latest
