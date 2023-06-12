@@ -3,6 +3,8 @@
 from .coordination import ToxicZKClient
 from .interfaces import BaseInterface
 
+__version__ = '0.10.0'
+
 
 async def common_setup(settings):
     ToxicZKClient.settings = settings
