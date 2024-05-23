@@ -7,6 +7,10 @@ versions:
 system_packages:
   - make
 
+extra_indexes:
+  - 'https://pypi.poraodojuca.dev'
+
+
 steps:
   - name: setup test env
     command: ./scripts/env.sh
@@ -19,6 +23,9 @@ steps:
 
   - name: Unit tests & coverage
     command: ./scripts/check_coverage.sh
+
+  - name: Release
+    command: ./scripts/release.sh
 
   - name: Build docs
     command: ./scripts/build_docs.sh

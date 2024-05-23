@@ -1,4 +1,4 @@
-# put your requirements here
+# Test requirements
 toxicbuild-core==0.10.0
 aiozk==0.30.0
 pytest==7.3.2
@@ -14,3 +14,4 @@ sphinx==7.0.1
 sphinx_pdj_theme==0.4.0
 build==0.10.0
 twine==4.0.2
+toxicmaster==0.10.0

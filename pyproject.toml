@@ -11,7 +11,7 @@ dynamic = ["version"]
 authors = [
   { name="me@myself.com" },
 ]
-description = "toxiccommon: My super cool project"
+description = "toxiccommon: Shared functionalities for toxicbuild"
 readme = "README.md"
 
 dependencies = [
