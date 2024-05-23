@@ -9,4 +9,4 @@ cd dist
 fname=`ls | grep tar`
 project_name=toxiccommon
 
-curl -F file=@$fname -F prefix=pypi/$project_name $PYPI_UPLOAD_URL -H "Authorization: Key $TUPI_AUTH_KEY"
+curl -F file=@$fname -F prefix=$project_name https://pypi.poraodojuca.dev -H "Authorization: Key $PYPI_AUTH_KEY"
